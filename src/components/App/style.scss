@@ -1,0 +1,41 @@
+@import "../../variables.scss";
+
+h1 {
+	margin: 25px 0 20px 0;
+	color: $primary-color;
+	font-size: 50px;
+}
+
+.btn-submit{
+	height: 2.0rem;
+	width: 90px;
+	border-radius: 5px;
+	border: none;
+	font-size: 0.8rem;
+	margin-left: 0.5rem;
+	cursor: pointer;
+	color: white;
+	background-color: $primary-color;
+	outline: none;
+}
+
+.input {
+	padding: 0.5rem;
+	margin: 1rem 0;
+}
+
+input[type=text] {
+	border-radius: 5px;
+	border: 0.5px solid $background-color;
+	outline: none;
+}
+
+.deleteButton {
+	color: $danger-color;
+}
+
+.container{
+	color: black;
+	text-align: center;
+	font-size: 1.3rem;
+}

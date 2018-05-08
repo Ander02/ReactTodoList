@@ -41,8 +41,11 @@ module.exports = {
 		}),
 		new ExtractTextPlugin("style.css")
 	],
-	devtool: "source-map",
 	resolve: {
 		extensions: [".js", ".ts", ".tsx"]
+	},
+	devtool: "source-map",
+	devServer: {
+		port: 3000
 	}
 }

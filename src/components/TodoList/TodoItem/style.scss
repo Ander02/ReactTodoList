@@ -1,0 +1,31 @@
+@import '../../../variables.scss';
+
+.completed-task{
+	padding: 0.5rem;	
+}
+
+.task{
+	padding: 0.5rem;
+}
+
+.check-task {
+	margin-left: 10px;
+}
+
+.is-completed {
+	text-decoration: line-through;
+	color: $secundary-color;
+}
+
+.btn-delete {
+	color: $danger-color;
+	height: 2.0rem;
+	width: 90px;
+	border-radius: 5px;
+	border: none;
+	background-color: $background-color;
+	font-size: 0.8rem;
+	margin-left: 0.5rem;
+	cursor: pointer;
+	outline: none;
+}
